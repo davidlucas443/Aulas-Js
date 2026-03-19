@@ -116,7 +116,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }        
     }
 
-    // Evento para cancelar a edição
     cancelarBtn.addEventListener('click', function() {
         editing = false;
         produtoForm.reset();
